@@ -1,0 +1,1050 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               /* обнуляем отступы и убираем бордюры */
+	vertical-align: baseline;          /* приводим все к одной базовой линии */
+	background: transparent;      /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+	font-size: 100%;                     /* размер шрифта всем одинаковый */
+}
+body{
+    
+    BACKGROUND-COLOR: #F8CC8D;
+}
+.button1{
+    width: 100px;
+    height:=100px;
+}
+.b{
+    background: url(images/Group%2017.png);
+    float: right;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    border-left-width: 0px;
+    width: 114px;
+    height: 57px;
+    padding-right: 0px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.logo_slider{
+    
+    width: 377px;
+    height: 139px;
+    font-family: Sofia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 101px;
+    text-align: center;
+
+    color: #411E32;
+    z-index: 2;
+}
+#text_slider {
+    width: 752px;
+    height: 240px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #411E32; 
+   }
+.main_left_block{
+    padding-right: 400px;
+    padding-top: 25px;
+    float: left;
+}
+.left_block_top{
+    width: 800px;
+height: 115px;
+
+background: #DF9E7A;
+border: 1px solid #DF9E7A;
+box-sizing: border-box;
+border-radius: 20px 20px 0px 0px;
+}
+
+#name_block_top_left {
+    width: 802px;
+    height: 36px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #411E32;
+    padding-top: 35px;
+    
+}
+.left_block_bottom{
+    position: absolute;
+    width: 800px;
+    height: 536px;
+    background: #F8CC8D;
+    border: 1px solid #DF9E7A;
+    box-sizing: border-box;
+    border-radius: 0px 0px 20px 20px;
+}
+.main_right_block{
+    padding-top: 25px;
+    float: right;
+}
+.right_block_top{
+    width: 412px;
+    height: 118px;
+    background: #94486E;
+    border-radius: 20px 20px 0px 0px;
+}
+#name_block_top_right {
+    width: 400px;height: 36px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #411E32;
+    padding-top: 35px;
+}
+.right_block_center{
+    width: 412px;
+    height: 466px;
+    background: #FFE9C8;
+    border: 1px solid #DF9E7A;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.name_form_DATE{
+    width: 120px;
+    height: 16.37px;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 5px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.Input_form_DATE{
+    width: 175px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+    float: left;
+}
+.name_form_TIME{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    float: right;
+    margin-right: 85px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+                                                         
+}
+.Input_form_TIME{
+    width: 175px;
+    height: 45px;
+    margin-top: 5px;
+    background: #F8CC8D;
+    float: right;
+    padding-right: 2px;
+    border-right-width: 2px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.name_form_NAME_GOS{
+    padding-left: 5px;
+    width: 85px;
+    height: 16.37px;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 50px;
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-bottom: 70px;
+}
+.Input_form_NAME_GOS{
+    width: 175px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+    margin-bottom: 0px;
+}
+.name_form_Col_Gos{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 78px;
+    color: rgba(0, 0, 0, 0.5);
+    float: right;
+    padding-top: 0px;
+}
+.Input_form_Col_Gos{
+    width: 175px;
+    height: 45px;
+    margin-top: 5px;
+    background: #F8CC8D;
+    padding-right: 2px;
+    border-right-width: 2px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.buttonOf{
+    height: 115px;
+}
+.name_form_Phone{
+    padding-left: 5px;
+    width: 120px;
+    height: 16.37px;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 80px;
+    margin-top: 0px;
+    border-right-width: 0px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+}
+.Input_form_Phone{
+    width: 175px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+    margin-bottom: 0px;
+}
+.name_form_Mail{
+    padding-left: 5px;
+    width: 60px;
+    height: 16.37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 80px;;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.Input_form_Mail{
+    width: 175px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+    margin-bottom: 0px;
+}
+.Button_form_POST{
+    background: url(images/Group%2016.png);
+    width: 160px;
+    height: 70px;
+    float: right;
+    border: #FFE9C8;
+    margin-right: 125px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.right_block_bottom{
+    width: 412px;
+    height: 118px;
+    background: #94486E;
+    border-radius: 0px 0px 20px 20px;
+}
+#name_block_bottom_right {
+    position: absolute;
+    width: 192px;
+    height: 69px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    padding-top: 20px;
+    color: #411E32;
+}
+#res {
+    width: 145px;
+    height: 47px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    padding-top: 35px;
+    padding-left: 0px;
+    float: right;
+    padding-right: 20px;
+    color: #411E32;
+}
+#map{
+    margin-left: 280px;
+    margin-top: 20px;
+}
+#name_OS {
+    height: 51px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #411E32;
+}
+.Date_OS{
+   float: right;     
+}
+#S {
+    font-size: 70px;
+    padding-top: 50px;
+    color: #411E32;
+}
+#Date_name {
+    float: right;
+    height: 62px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #411E32;
+    margin-right: 22px;
+}
+#Date_mail {
+    height: 46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+#Date_phone{
+    height: 46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 60px;
+}
+#name_form_NAME{
+    padding-left: 10px;
+    width: 100px;
+    height: 16.37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 0px;
+    padding-right: 80px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Input_form_NAME{
+    width: 400px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+}
+#T1_s1 {
+    padding-top: 70px;
+    FONT-SIZE: 20px;
+    color: #F8CC8D;
+}
+#T1_s2 {
+    FONT-SIZE: 18px;
+    color: #F8CC8D;
+}
+#T2_s1 {
+    padding-top: 70px;
+    FONT-SIZE: 20px;
+    color: #F8CC8D;
+}
+#T2_s2 {
+    FONT-SIZE: 18px;
+    color: #F8CC8D;
+}
+#T3_s1 {
+    padding-top: 70px;
+    FONT-SIZE: 20px;
+    color: #F8CC8D;
+}
+#T3_s2 {
+    FONT-SIZE: 18px;
+    color: #F8CC8D;
+}
+#name_form_MAIL{
+    
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 200px;
+    height: 16.37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-right: 80px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Input_form_MAIL{
+    width: 400px;
+    75px: ;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+}
+#name_form_SMS{
+    padding-bottom: 0px;
+    width: 130px;
+    height: 16.37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-right: 184px;
+    padding-left: 0px;
+    padding-right: 365px;
+}
+.Input_form_SMS{
+    width: 400px;
+    height: 150px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+}
+
+#name_form_NAME_footer{
+    padding-left: 10px;
+    width: 100px;
+    height: 16.37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 0px;
+    padding-right: 80px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Input_form_NAME_footer{
+    width: 400px;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+}
+#name_form_SMS_footer{
+    
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    width: 200px;
+    height: 16.37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 80px;
+}
+.Input_form_SMS_footer{
+    width: 400px;
+    height: 150px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+}
+
+
+
+#name_form_MAIL_footer{
+    
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 200px;
+    height: 16.37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-right: 80px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Input_form_MAIL_footer{
+    width: 400px;
+    75px: ;
+    height: 45px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+}
+#name_form_SMS_footer{
+    
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    width: 200px;
+    height: 16.37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 80px;
+}
+.Input_form_SMS_footer{
+    width: 400px;
+    height: 150px;
+    margin-left: 12px;
+    margin-top: 5px;
+    background: #F8CC8D;
+}
+
+.Button_form_POST_OS_footer{
+    background: url(images/Group%2017.png);
+    width: 115px;
+    height: 55px;
+    border: #FFE9C8;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+
+
+.Button_form_POST_OS{
+    background: url(images/Group%2013.png);
+    width: 115px;
+    height: 55px;
+    border: #FFE9C8;
+    margin-top: 40px;
+    float: left;
+    margin-left: 40px;
+}
+#result {
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+    float: right;
+    margin-top: 20px;
+}
+
+#poz {
+    margin-right: 100px;
+    float: left;
+}
+.poloska{
+    width: 667px;
+    height: 0px;
+    border: 1px solid #DF9E7A;
+    margin-left: 250px;
+}
+.Logo_footer{
+    float: left;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-left: 280px;
+}
+.NAME_footer{
+    float: right;
+    margin-right: 280px;
+    margin-top: 30px;
+}
+.table1{
+    background: red;
+    height: 200px;
+    border-radius: 0,0,20,20;
+    border-radius: 0px 0px 1000px 1000px;
+}
+a {                                      	     /* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline:none;
+}
+table {						/* устраняем отступы между ячейками таблицы */
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;			/* возвращаем привычное вертикальное выравнивание */
+} 
+input, select, button, textarea {
+	margin: 0; 				/* убираем отступы по умолчанию для элементов форм (в частности для checkbox и radio) */
+	font-size: 100%; 			/* делаем размер шрифтов везде одинаковым */
+	outline: none;
+}
+input[type="password"], textarea {
+	padding: 0; 				/* убираем внутренние отступы для текстовых полей */
+}
+input[type="checkbox"] { 		/* вертикальное выравнивание чекбоксов и радиобатонов относительно меток */
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	 list-style:none;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- базовые настройки ---------*/
+html {
+	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+}
+body {
+	color: #7e7f84;
+	text-align: left;
+	font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
+	min-height:100%;
+	font-family: 'Lato', sans-serif; /*font-family: 'Roboto Condensed', sans-serif;*/
+}
+a, a:visited { /* порядок правил для ссылок имеет значение */
+	color: #f45a40;
+	text-decoration: underline;
+}
+a:hover {
+	color: #f45a40;
+	text-decoration:none;
+}
+a:focus, a:active {
+	color: #f45a40;
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+img{
+
+	max-width:100%;
+}
+.clr{
+	clear:both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* --------------- /базовые настройки ---------*/
+
+.center-block-main{
+	max-width:1170px; margin:0 auto;
+}
+header{
+	background: z-index:2; width:100%;
+}
+.header-top{
+	padding:15px 0 25px 0;
+}
+
+	.logo{
+		float:left;
+        width: 40%;
+        height: 40%;
+        margin: 30px;
+	}
+	
+.header-bottom{
+	padding:10px 0;
+}
+	.menu{
+		float:right; font-family:font-family: 'Droid Sans', sans-serif; margin-top:25px;
+	}
+		.menu li{
+			float:left; text-transform:uppercase; margin-right:30px; font-size:0.875em; width:250px; 
+		}
+			.menu li a{
+				color:#fff; text-decoration:none;
+			}
+			.menu li a:hover{
+				color:#4bcaff;
+			}
+
+.my-slider{
+}
+	.my-slider ul li{
+		position:relative; color:#fff; border-bottom:4px solid #4bcaff; font-size:0;
+	}
+	.slide-text-wrapper{
+		position:absolute; top:35%; left:44%; max-width:700px;
+	}
+	.my-slider ul li h2{
+		font-size:48px; font-weight:300; line-height:1.1; margin-bottom:20px;
+	}
+	.my-slider ul li img{
+		width:100%;
+	}
+	.my-slider ul li p{
+		font-size:16px;  font-weight:300;
+	}
+	a.download-btn{
+		color:#fff; display:inline-block; padding:20px 50px; border:2px solid #fff; border-radius:5px; font-size:15px; text-decoration:none; font-weight:600; margin-top:30px;
+	}
+	a:hover.download-btn{
+		color:#4bcaff; border:2px solid #4bcaff; 
+	}
+	.unslider-nav{
+		max-width:1170px; margin:-19px auto 0 auto; position:relative; top:-15px;
+	}
+
+.block3-section{
+	BACKGROUND-COLOR:  #F8CC8D; 
+    border-bottom:1px solid #DF9E7A; 
+    padding:30px 0 50px 0;
+}
+	.block3-section>h2{
+		font-size:2.25em; font-weight:600; text-align:center; color:#414042;
+	}
+	.block3-section>h3{
+		font-size:1.25em; font-weight:400; text-align:center; margin-bottom:50px;
+	}
+.block3-main{
+	margin-bottom:50px;
+}
+	.block3-main article{
+		width:30%; float:left; margin-left:5%; text-align:center;
+	}
+	.block3-main article:first-child{
+		margin-left:0;
+	}
+	.block3-main article img{
+		display:block; margin:0 auto 20px auto;
+	}
+	.block3-main article h2{
+		font-size:1em; margin-bottom:20px; text-transform:uppercase; font-weight:600; color:#414042;
+	}
+		.block3-main article h2 a{
+			text-decoration:none; color:#414042;
+		}
+		.block3-main article h2 a:hover{
+			text-decoration:underline;
+		}
+	.block3-main article p{
+		font-size:0.875em; line-height:1.4;
+	}
+	/* --------------- Блок 4 ---------*/
+.block4-section{
+	margin-bottom:60px; padding:30px 0 0 0;
+}
+	.block4-section>h2{
+		font-size:2.25em; font-weight:600; text-align:center; color:#414042;
+	}
+	.block4-section>h3{
+		font-size:1.25em; font-weight:400; text-align:center; margin-bottom:50px;
+	}
+	
+	.block4-main{
+	}
+		.block4-main article{
+			width:23%; margin-left:2.6666666666666666666666666666667%; float:left;
+		}
+		.block4-main article:first-child{
+			margin-left:0;
+		}
+		.block4-main article img{
+			display:block; margin:0 auto;
+		}
+		.block4-main-content{
+			padding:20px 20px 0 20px; text-align:center;
+		}
+
+		.block4-main-content p{
+			font-size:0.8125em; margin-bottom:15px; line-height:1.5;
+		}
+		p.price-basket{
+			border-top:1px solid #eee; font-size:0.875em; color:#f45a40; padding:15px 0; margin-bottom:0;
+		}
+		.price{
+			float:left;
+		}
+		.basket-btn{
+			float:right;
+		}
+/* --------------- Видео ---------*/
+.video-section{
+	background:url(images/videosection.jpg) center top no-repeat; padding:150px 0;
+	background-size:cover;
+}
+	.video-main-text{
+		text-align:center; color:#fff;
+	}
+	.video-main-text img{
+		cursor:pointer; margin-bottom:20px;
+	}
+	.video-main-text h2{
+		font-size:48px; font-weight:300; line-height:1.1; margin-bottom:20px;
+	}
+		.video-main-text h2 span{
+			font-weight:600;
+		}
+	.video-main-text p{
+		font-size:16px;  font-weight:300;
+	}
+
+
+	
+
+	
+	/* --------------- Подвал ---------*/
+.ftr{
+	background:#2a2d34; padding:40px 0;
+}
+	.ftr h2{
+		color:#fff; font-size:1.325em; font-family: 'Roboto Condensed', sans-serif; margin-bottom:10px; text-transform:uppercase;
+	}
+	.ftr p{
+		font-size:0.875em; margin-bottom:20px;
+	}
+	.ftr h3{
+		font-size:0.875em; margin-bottom:5px;
+	}
+		.ftr h3 a{
+			color:#fff; text-decoration:none;
+		}
+		.ftr h3 a:hover{
+			text-decoration: underline;
+		}
+	.support{
+		float:left; width:47%; margin-right:3%;
+	}
+		.support a{
+			display:block; margin-bottom:5px; text-decoration:none; color:#7e7f84;
+		}
+		.support a:hover{
+			text-decoration:underline;
+		}
+	/* --------------- Размеры экрана	---------*/
+
+@media screen and (max-width:1000px){
+	.my-slider ul li h2{
+		font-size:36px;
+	}
+	.my-slider ul li p{
+		font-size:16px;
+	}
+}
+@media screen and (max-width:900px){
+	.block4-main article{
+			width:45%; margin:0 2.5% 30px 2.5%; float:left;
+		}
+		.block4-main article:first-child{
+			margin:0 2.5% 30px 2.5%;
+		}
+	.subscribe h2{
+		float:none; text-align:center; margin:0 0 20px 0;
+	}
+	.subscribe-form{
+		float:none; display:table; margin:0 auto;
+	}	
+}
+@media screen and (max-width:740px){
+	.my-slider ul li h2{
+		top:100px; font-size:2em;
+	}
+	.my-slider ul li p{
+		top:180px;
+	}
+	.search-block{
+		border-top:1px solid #eee; border-bottom:1px solid #eee; margin-top:10px; padding:5px 0 7px 0; float:right;
+	}
+}
+@media screen and (max-width:600px){
+	.block3-main article{
+		width:95%; float:none; margin:0 2.5% 30px 2.5%;
+	}
+	.block3-main article:first-child{
+		 margin:0 2.5% 30px 2.5%;
+	}
+	.about article{
+		float:none; width:95%; margin:0 2.5% 30px 2.5%;
+	}
+	.about .map{
+		float:none; width:95%; margin:0 2.5% 30px 2.5%;
+	}
+}
+@media screen and (max-width:480px){
+	.my-slider ul li h2{
+		top:50px; font-size:1.275em;
+	}
+	.my-slider ul li p{
+		top:110px;
+	}
+	.block4-main article{
+			width:95%; margin:0 2.5% 30px 2.5%; float:none; overflow:hidden;
+		}
+		.block4-main article:first-child{
+			width:95%; margin:0 2.5% 30px 2.5%; float:none;
+		}
+}
+@media screen and (max-width:410px){
+	.header-top{
+		padding:10px 0;
+	}
+	.logo{
+		float:none; text-align:center; margin-bottom:10px;
+	}
+	.contakt-basket{
+		float:none; display:table; margin:0 auto;
+	}
+}
+@media screen and (max-width:360px){
+	.email-inpt{
+		float:none; width:95%; margin:0 2.5% 20px 2.5%; box-sizing:border-box;
+	}
+	.submit-inpt{
+		margin-left:2.5%;
+	}
+	.my-slider ul li h2{
+		top:30px; font-size:1em;
+	}
+	.my-slider ul li p{
+		top:80px;
+	}
+}
+
+
+
+.modalwin {   
+        width: 300px;
+        border: 3px outset gray; 
+        background: wheat;
+        top: 20%; /* отступ сверху */
+        right: 0;
+        left: 0;
+        font-size: 14px; 
+        margin: 0 auto;
+        z-index:2; /* поверх всех */
+        display: none;  /* сначала невидим */
+        position: fixed; /* фиксированное позиционирование, окно стабильно при прокрутке */
+        padding: 15px;
+        border: 1px solid #383838;    
+}
+.Modal_left_block{
+    width: 400px;
+    height: 50%;
+}
+#popupWin {
+    text-align: center;
+    width: 80%;
+    height: 70%;
+}
+
+#shadow { 
+        position: fixed;
+        width:100%;
+        height:100%;
+        z-index:1; /* поверх всех  кроме окна*/
+        background:#000;
+        opacity: 0.5; /*прозрачность*/
+        left:0;
+        top:0;
+    
+}
+
+
+#container1 {
+    background: green;
+    height: 200px;
+    float: right;
+    width: 200px;
+    border-radius: 1000px 1000px 1000px 1000px;
+    margin-right: 80px;
+    margin-top: 120px;
+}
+#container2 {
+    background: blue;
+    height: 200px;
+    float: right;
+    width: 200px;
+    border-radius: 0,0,20,20;
+    border-radius: 1000px 1000px 1000px 1000px;
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+#container3 {
+    float: left;
+    background: purple;
+    height: 200px;
+    width: 200px;
+    border-radius: 0,0,20,20;
+    border-radius: 1000px 1000px 1000px 1000px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+

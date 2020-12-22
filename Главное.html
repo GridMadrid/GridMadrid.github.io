@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script type="text/javascript">
+            function showModalWin() {
+ 
+                var darkLayer = document.createElement('div'); // слой затемнения
+                darkLayer.id = 'shadow'; // id чтобы подхватить стиль
+                document.body.appendChild(darkLayer); // включаем затемнение
+ 
+                var modalWin = document.getElementById('popupWin'); // находим наше "окно"
+                modalWin.style.display = 'block'; // "включаем" его
+ 
+                darkLayer.onclick = function () {  // при клике на слой затемнения все исчезнет
+                    darkLayer.parentNode.removeChild(darkLayer); // удаляем затемнение
+                    modalWin.style.display = 'none'; // делаем окно невидимым
+                    return false;
+                };
+            }
+        </script>
+    
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="css/unslider.css">
+    <link rel="stylesheet" href="css/unslider-dots.css">
+    <script src="js/data.js"></script>
+    <title>Book a table</title>
+</head>
+<body>
+    <header class="center-block-main">
+
+            <div class="header-top clearfix">
+                <p class="logo"><img src="images/Book a table.png" alt=""></p>
+                <nav>
+                    <ul class="menu">
+                    <li>
+                        <a href="#zakaz" class="button1">
+                            <img src="images/Group 9.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#name_OS">
+                            <img src="images/Group 10.png" alt="">
+                        </a>
+                    </li>
+                    </ul>
+                </nav>
+            </div>
+        
+    </header>
+
+<div class="my-slider">
+        <ul>
+            <li>
+                <div class="slide-text-wrapper">
+                    <h2><span class="logo_slider">Book a table</span></h2>
+                        <p id="text_slider">Этот сайт был разработан для экономии ваших ресурсов и для удобного способа бранирование столов в ресторане XXX 
+                            <br>
+                        </p>
+                </div>    
+                <img src="images/img11.png" alt="" >
+            </li>
+            
+            <li>   
+                <div class="slide-text-wrapper">
+                <h2><span class="logo_slider">Book a table</span></h2>
+                        <p id="text_slider">Этот сайт был разработан для экономии ваших ресурсов и для удобного способа бранирование столов в ресторане XXX 
+                            <br>
+
+                        </p>
+                </div>   
+                <img src="images/img21.png"  alt="">
+            </li>
+            
+            <li>
+                <div class="slide-text-wrapper">
+                    <h2><span class="logo_slider">Book a table</span></h2>
+                        <p id="text_slider">Этот сайт был разработан для экономии ваших ресурсов и для удобного способа бранирование столов в ресторане XXX
+                            <br>
+                        </p>
+                </div>   
+                <img src="images/img31.png"  alt="">
+            </li>
+            
+        </ul>
+</div>
+
+<section id="zakaz" class="block3-section" style="BACKGROUND-COLOR:  #F8CC8D;">
+	<h2>Заказ стола в XXX</h2>
+    <h2>Ростов-на-Дону ул.Тургеневская 2533</h2>
+        
+    <div class="block3-main center-block-main clearfix">
+            <article class="main_left_block">
+                <div class="left_block_top">
+                    <p id="name_block_top_left">Схема зала ресторана</p>
+                </div>
+                
+                <div class="left_block_bottom">
+                    <div class="table1">
+                        <p id="S">Сцена</p>
+                    </div>
+                    
+                    <div id="container3" onclick="myFunction1()">
+                        <p id="T1_s1">1 стол</p></ br>
+                        <p id="T1_s2">Количество мест: 6</p>
+                    </div>
+                    <div id="container2" onclick="myFunction2()">
+                        <p id="T2_s1">2 стол</p></ br>
+                        <p id="T2_s2">Количество мест: 4</p>
+                    </div>
+        
+                    <div id="container1"  onclick="myFunction3()">
+                        <p id="T3_s1">3 стол</p></ br>
+                        <p id="T3_s2">Количество мест: 2</p>
+                    </div>
+                </div>
+            </article>
+        
+            <article class="main_right_block">
+                <div class="right_block_top"><p id="name_block_top_right">Описание заказа</p></div>
+                <div class="right_block_center">
+                    <form id="form"  method="post" onsubmit="Formdata1(this)">
+                        <p class="name_form_DATE">Дата посещения<input id="date" name="date" type="date" value="" class="Input_form_DATE" ></p>
+                        <p class="name_form_TIME" style="">Время посещения</p>
+                        <input id="time" name="time" type="time" value="" class="Input_form_TIME">
+                        <p class="name_form_Col_Gos" >Количество гостей</p>
+                        <input id="ColGos" name="gos" type="number" min="0" max="0" value="" class="Input_form_Col_Gos">
+                        <p class="buttonOf"> 
+                        <input type="button" value="" class="Button_form_POST" onclick="showModalWin()" >
+                    </form>
+                    <div style="" id="popupWin" class="modalwin" >
+                        <h2>Оформление стола</h2>
+                        
+                        <div>
+                            <form action="mail.php" method="POST" id="form"  onsubmit="Formdata2(this)">
+                                <textarea id="result" name="user_zakaz" ></textarea>
+                                <div class="Modal_left_block" >
+                                    <p class="name_form_NAME_GOS" style="">Имя гостя<input id="name" name="name" type="text" value="" class="Input_form_NAME_GOS"></p>
+                                    <p class="name_form_Phone" style="">Номер телефона<input id="tel" name="phone" type="tel" value="" class="Input_form_Phone"></p>
+                                    <p class="name_form_Mail" style="">Почта <input id="em" name="email" type="email" value="" class="Input_form_Mail"></p>
+                                    <p id="name_form_SMS">Ваше сообщение* </p>
+                                    <textarea id="poz" name="SMS" type="text" value="" class="Input_form_SMS" ></textarea>
+                                    <p><input name="button" type="button" value="" class="Button_form_POST_OS" onclick="Oform()"></p>
+                                    <input type="submit" value="" class="b">
+                                </div>
+                            </form>
+                        </div>
+                        </p>
+                    </div>
+             <div class="right_block_bottom"><p id="name_block_bottom_right">Итоговая цена</p><p id="res">0</p></div>
+        </article>
+    </div>
+</section>    
+
+<section class="block3-section">
+	<h2>Наш ресторан находиться здесь</h2>
+	
+    <div class="block3-main center-block-main clearfix">
+        <article id="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.088142445746!2d39.70128141586193!3d47.214857622949665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b9144d9d00bb%3A0x3331d5a19cb57bd2!2z0YPQuy4g0KLRg9GA0LPQtdC90LXQstGB0LrQsNGPLCAxMSwg0KDQvtGB0YLQvtCyLdC90LAt0JTQvtC90YMsINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4sIDM0NDAwMg!5e0!3m2!1sru!2sru!4v1606044844332!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+        </article>
+    </div>
+</section>
+    
+<footer class="ftr" style="background: #FFE9C8;">
+    <section class="block4-section center-block-main">
+	<h2 id="name_OS">Обратная связь</h2>
+    
+            <div class="Date_OS">
+                <h1 id="Date_name">Наши данные</h1>
+                <p id="Date_mail">bookatable@gmail.com</p>
+                <p id="Date_phone">(555) 555-5555</p>
+            </div>
+    
+            <div>
+                <form  method="POST"  action="mail1.php" onsubmit="Formdatafooter(this)">
+                    <p id="name_form_NAME_footer">Ваше имя* </p><input name="name" type="text" value="" class="Input_form_NAME_footer">
+                    <p id="name_form_MAIL_footer">Ваш адрес электронной почты* </p><input name="email" type="mail" value="" class="Input_form_MAIL_footer">
+                    <p id="name_form_SMS_footer">Ваше сообщение* </p><textarea name="SMS" type="text" value="" class="Input_form_SMS_footer"></textarea>
+                    <p><input name="button" type="submit" value="" class="Button_form_POST_OS_footer"></p>
+                </form>
+            </div>
+        
+        </section>
+
+    <div class="center-block-main clearfix">
+        <div class="poloska"></div>
+        <img src="images/Book a table11.png" alt="" class="Logo_footer">
+        <div class="NAME_footer">Авторские права@2020 Book a table</div>
+    </div>
+    
+</footer>
+    
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/unslider-min.js"></script>
+<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider({
+				autoplay:true,
+				arrows:false
+			});
+		});
+    
+    function mail(){
+    win=window.open("mail.html","mail");	
+    setTimeout(sendInInput, 2000);}
+
+</script>
+
+</body>
+</html>
